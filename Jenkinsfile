@@ -4,7 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         echo 'Build'
-        sh '''"$UNITY_PATH" -projectPath "$PROJECT_PATH" -logFile "$LOG_PATH" 
+        sh '''sh "$UNITY_PATH" -projectPath "$PROJECT_PATH" -logFile "$LOG_PATH" 
 -quit -batchmode
 -executeMethod BuildTool.Build'''
       }

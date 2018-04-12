@@ -6,9 +6,7 @@ pipeline {
         stage('Build') {
           steps {
             echo 'Build'
-            sh '''#!/bin/bash
--quit -batchmode -executeMethod BuildTool.Build
-'''
+            sh 'echo \'hello\''
           }
         }
         stage('Bat') {

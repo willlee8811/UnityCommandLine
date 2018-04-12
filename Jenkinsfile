@@ -13,7 +13,7 @@ PROJECT_PATH="C:\\Program Files (x86)\\Jenkins\\workspace\\UnityCommandLine_mast
 BUILD_LOG_PATH="${PROJECT_PATH}\\build.log"
 DESTINATION_PATH="C:\\Users\\willyliao\\Desktop"
 
-echo "$UNITY_PATH"'''
+"$UNITY_PATH" -projectPath "$PROJECT_PATH" -logFile "$LOG_PATH"  -quit -batchmode -executeMethod BuildTool.Build'''
           }
         }
         stage('Bat') {

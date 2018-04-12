@@ -23,7 +23,7 @@ DESTINATION_PATH="C:\\Users\\willyliao\\Desktop"'''
     }
     stage('Unity') {
       steps {
-        sh 'echo $UNITY_PATH '
+        sh 'echo "$UNITY_PATH"'
       }
     }
   }

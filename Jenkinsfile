@@ -23,7 +23,7 @@ DESTINATION_PATH="C:\\Users\\willyliao\\Desktop"'''
     }
     stage('Unity') {
       steps {
-        sh '"$UNITY_PATH" -quit -batchmode -projectPath "${PROJECT_PATH}" -executeMethod BuildTool.Build -logFile "${BUILD_LOG_PATH}" -destinationPath "${DESTINATION_PATH}"'
+        sh '$UNITY_PATH -quit -batchmode -projectPath ${PROJECT_PATH} -executeMethod BuildTool.Build -logFile ${BUILD_LOG_PATH} -destinationPath ${DESTINATION_PATH}'
       }
     }
   }

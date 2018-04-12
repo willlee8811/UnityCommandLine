@@ -6,7 +6,7 @@ pipeline {
         stage('Build') {
           steps {
             echo 'Build'
-            sh '''C:\\program files\\Unity\\Editor\\Unity.exe -quit -batchmode -executeMethod BuildTool.Build
+            sh '''D:\\Unity\\Editor\\Unity.exe -quit -batchmode -executeMethod BuildTool.Build
 '''
           }
         }

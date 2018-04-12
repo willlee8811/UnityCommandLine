@@ -6,7 +6,7 @@ pipeline {
         stage('Build') {
           steps {
             echo 'Build'
-            sh '"D:\\Unity\\Editor\\Unity.exe"'
+            sh '"D:\\Unity\\Editor\\Unity.exe" -quit'
           }
         }
         stage('Bat') {

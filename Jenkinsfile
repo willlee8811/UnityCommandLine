@@ -4,8 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         echo 'Build'
-        sh '''#!\\bin\\bash 
-sh \'echo hello sh\''''
+        sh 'sh "echo hello sh"'
       }
     }
     stage('Unity') {

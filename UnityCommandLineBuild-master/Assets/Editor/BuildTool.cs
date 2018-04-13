@@ -14,8 +14,7 @@ public class BuildTool
         string destinationPath = Path.Combine(_destinationPath, PlayerSettings.productName);
         destinationPath += GetExtension();
 
-        //BuildPipeline.BuildPlayer(EditorBuildSettings.scenes, destinationPath, EditorUserBuildSettings.activeBuildTarget, BuildOptions.None);
-        BuildPipeline.BuildPlayer(EditorBuildSettings.scenes, destinationPath, BuildTarget.Android, BuildOptions.None);
+        BuildPipeline.BuildPlayer(EditorBuildSettings.scenes, destinationPath, EditorUserBuildSettings.activeBuildTarget, BuildOptions.None);
     }
 
 

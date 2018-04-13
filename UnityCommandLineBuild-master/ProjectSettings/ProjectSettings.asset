@@ -518,7 +518,7 @@ PlayerSettings:
   XboxOne::VR::enabledDevices: []
   iOS::VR::enabledDevices: []
   tvOS::VR::enabledDevices: []
-  cloudProjectId: 13efcf69-2eb8-494a-93ea-6803fd9807e4
-  projectName: UnityAutomaticBuild
-  organizationId: ted10401
+  cloudProjectId: f1639d3c-7f66-4581-b839-0a98828f53d7
+  projectName: UnityCommanLineBuild
+  organizationId: will-4017105
   cloudEnabled: 0
